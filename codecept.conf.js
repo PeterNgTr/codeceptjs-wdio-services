@@ -14,7 +14,11 @@ exports.config = {
         }
       },
       windowSize: "1440x700",
-      smartWait: 5000
+      smartWait: 5000,
+      timeouts: {
+        "script": 60000,
+        "page load": 10000
+      }
     }
   },
   name: "codeceptjs-wdio-services",
