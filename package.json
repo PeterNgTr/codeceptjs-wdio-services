@@ -1,6 +1,6 @@
 {
   "name": "codeceptjs-wdio-services",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a demo to show how to turn on wdio services in this case selenium-standalone-service",
   "main": "search_tests.js",
   "scripts": {

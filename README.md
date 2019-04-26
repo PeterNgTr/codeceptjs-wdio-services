@@ -14,7 +14,6 @@ e2e test uses a number of open source projects to work properly:
 
 * https://nodejs.org/en/ - evented I/O for the backend
 * https://codecept.io/ - CodeceptJS
-* https://www.npmjs.com/package/webdriver-manager - A selenium server and browser driver manager for your end to end tests.
 
 ### Installation
 
