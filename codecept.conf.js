@@ -32,8 +32,7 @@ exports.config = {
   },
   plugins: {
     wdio: {
-      services: ['selenium-standalone'],
-      enabled: true
+      services: ['selenium-standalone']
     }
   }
 }
