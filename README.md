@@ -18,24 +18,18 @@ e2e test uses a number of open source projects to work properly:
 
 ### Installation
 
-e2e test requires [Node.js](https://nodejs.org/) v4+ to run.
+e2e test requires [Node.js](https://nodejs.org/) v8+ to run.
 
 Install the dependencies and devDependencies.
 
 ```sh
-$ cd amazon-ui-tests
+$ cd codeceptjs-wdio-services
 $ npm install -d
 ```
 
 ### How to trigger UI test
 
-
-This is using WebDriverIO helper which wraps webdriverio library to manipulate browser, hence Selenium WebDriver needs to be called
-
-```sh
-$ webdriver-manager update
-$ webdriver start
-```
+This demo project uses [Wdio-Services](https://codecept.io/plugins#wdio) hence you don't need to start the selenium
 
 To run all e2e tests just simply type
 
