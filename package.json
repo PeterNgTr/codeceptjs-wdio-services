@@ -5,6 +5,7 @@
   "main": "search_tests.js",
   "scripts": {
     "start": "codeceptjs run-multiple parallel",
+    "test": "codeceptjs run",
     "lint": "eslint . --fix"
   },
   "husky": {
