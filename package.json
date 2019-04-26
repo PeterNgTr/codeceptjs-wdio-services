@@ -1,0 +1,32 @@
+{
+  "name": "codeceptjs-wdio-services",
+  "version": "1.0.0",
+  "description": "This is a demo to show how to turn on wdio services in this case selenium-standalone-service",
+  "main": "search_tests.js",
+  "scripts": {
+    "start": "codeceptjs run-multiple parallel",
+    "lint": "eslint . --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "author": "thanh nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.7.0",
+    "chai": "^4.1.2",
+    "codeceptjs": "2.1.0",
+    "import-export": "^1.0.1",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.0.3"
+  },
+  "devDependencies": {
+    "@wdio/selenium-standalone-service": "^5.7.8",
+    "eslint": "^5.5.0",
+    "eslint-plugin-codeceptjs": "^0.4.0",
+    "husky": "^0.14.3",
+    "webdriverio": "5.7.15"
+  }
+}
