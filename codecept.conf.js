@@ -10,7 +10,7 @@ exports.config = {
       browser: "chrome",
       desiredCapabilities: {
         chromeOptions: {
-          args: [ "--headless", "--disable-gpu", "--window-size=1440,700", "--no-sandbox" ]
+          args: [ "--headless", "--window-size=1440,700", "--no-sandbox" ]
         }
       },
       windowSize: "1440x700",
