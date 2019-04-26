@@ -19,7 +19,7 @@ Scenario('Search returns results', async () => {
     expect(await resultPage.hasResults(searchString)).to.be.true;
 });
 
-Scenario('Search returns no results', async () => {
+Scenario('Search returns no results', () => {
     const searchString = 'echdjhkfefweho';
     homePage.search(searchString);
     I.see('Keine Ergebnisse');

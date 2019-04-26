@@ -3,7 +3,7 @@ const { I, homePage, resultPage, productDetailsPage, cartPage } = inject();
 
 Feature('Add to card functionality');
 
-Before((I) => {
+Before(() => {
     I.amOnPage('/');
 });
 
