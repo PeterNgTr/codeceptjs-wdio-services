@@ -11,6 +11,7 @@ export default resultPage = {
   },
 
   async showProductDetails() {
+    I.waitForElement(this.productName, 3);
     I.click(this.productName);
     I.wait(2);
   },
