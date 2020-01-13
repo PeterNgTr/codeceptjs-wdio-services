@@ -2,7 +2,7 @@ const I = actor();
 
 export default resultPage = {
     resultBar: 'div[id="search"] span[data-component-type="s-result-info-bar"]',
-    productName: 'h2',
+    productName: 'h2 a',
     noResult: '#noResultsTitle',
 
     async hasResults(searchString) {
