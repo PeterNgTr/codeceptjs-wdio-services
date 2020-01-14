@@ -1,6 +1,6 @@
 export default data = {
-    credentials: {
-        email: '', 
-        password: ''
-    },
-}
+  credentials: {
+    email: '',
+    password: '',
+  },
+};

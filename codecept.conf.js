@@ -1,43 +1,43 @@
 require('import-export');
 
 exports.config = {
-  tests: "./tests/**/*.js",
+  tests: './tests/**/*.js',
   timeout: 10000,
-  output: "./output",
+  output: './output',
   helpers: {
     WebDriver: {
       url: 'https://www.amazon.de',
-      browser: "chrome",
+      browser: 'chrome',
       desiredCapabilities: {
         chromeOptions: {
-          args: [ "--headless", "--window-size=1440,700", "--no-sandbox" ]
-        }
+          args: ['--headless', '--window-size=1440,700', '--no-sandbox'],
+        },
       },
-      windowSize: "1440x700",
+      windowSize: '1440x700',
       smartWait: 5000,
       timeouts: {
-        "script": 60000,
-        "page load": 10000
-      }
-    }
+        script: 60000,
+        'page load': 10000,
+      },
+    },
   },
-  name: "codeceptjs-wdio-services",
+  name: 'codeceptjs-wdio-services',
   multiple: {
     parallel: {
-      chunks: 2
-    }
+      chunks: 2,
+    },
   },
   include: {
     homePage: './pages/HomePage.js',
     resultPage: './pages/ResultPage.js',
     productDetailsPage: './pages/ProductDetailsPage.js',
     popup: './pages/Popup.js',
-    cartPage: './pages/CartPage.js'
+    cartPage: './pages/CartPage.js',
   },
   plugins: {
     wdio: {
       services: ['selenium-standalone'],
-      enabled: true
-    }
-  }
-}
+      enabled: true,
+    },
+  },
+};
