@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/PeterNgTr/amazon-ui-tests.svg?branch=master)](https://travis-ci.org/PeterNgTr/amazon-ui-tests) [![Greenkeeper badge](https://badges.greenkeeper.io/PeterNgTr/codeceptjs-wdio-services.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/PeterNgTr/amazon-ui-tests.svg?branch=master)](https://travis-ci.org/PeterNgTr/amazon-ui-tests) [![Greenkeeper badge](https://badges.greenkeeper.io/PeterNgTr/codeceptjs-wdio-services.svg)](https://greenkeeper.io/) ![Azure DevOps builds (branch)](https://img.shields.io/azure-devops/build/germaniteen/codeceptjs-wdio-services/3/master?label=Azure%20DevOps)
 
 # Introduction
 
