@@ -31,5 +31,6 @@
     "eslint-plugin-import": "^2.20.0",
     "husky": "4.0.7",
     "webdriverio": "5.18.5"
+
   }
 }
