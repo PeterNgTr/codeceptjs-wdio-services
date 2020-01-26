@@ -20,7 +20,7 @@
     "chai": "4.2.0",
     "codeceptjs": "2.4.1",
     "import-export": "^1.0.1",
-    "mocha": "7.0.0",
+    "mocha": "7.0.1",
     "mochawesome": "4.1.0"
   },
   "devDependencies": {
