@@ -30,7 +30,7 @@
     "eslint-plugin-codeceptjs": "^1.2.0",
     "eslint-plugin-import": "^2.20.0",
     "husky": "4.1.0",
-    "webdriverio": "5.18.5"
+    "webdriverio": "5.18.7"
 
   }
 }
