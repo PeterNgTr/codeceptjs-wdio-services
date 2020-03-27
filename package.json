@@ -24,7 +24,7 @@
     "mochawesome": "5.0.0"
   },
   "devDependencies": {
-    "@wdio/selenium-standalone-service": "5.16.10",
+    "@wdio/selenium-standalone-service": "6.0.4",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-codeceptjs": "^1.2.0",
