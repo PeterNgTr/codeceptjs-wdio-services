@@ -18,7 +18,7 @@
   "dependencies": {
     "allure-commandline": "2.13.0",
     "chai": "4.2.0",
-    "codeceptjs": "2.4.2",
+    "codeceptjs": "2.6.5",
     "import-export": "^1.0.1",
     "mocha": "7.1.1",
     "mochawesome": "5.0.0"
