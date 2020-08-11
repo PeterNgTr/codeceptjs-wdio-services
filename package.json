@@ -18,18 +18,17 @@
   "dependencies": {
     "allure-commandline": "2.13.0",
     "chai": "4.2.0",
-    "codeceptjs": "2.4.2",
+    "codeceptjs": "2.6.8",
     "import-export": "^1.0.1",
-    "mocha": "7.1.1",
     "mochawesome": "5.0.0"
   },
   "devDependencies": {
-    "@wdio/selenium-standalone-service": "5.16.10",
+    "@wdio/selenium-standalone-service": "6.4.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-codeceptjs": "^1.2.0",
     "eslint-plugin-import": "^2.20.0",
     "husky": "4.2.2",
-    "webdriverio": "5.22.4"
+    "webdriverio": "6.4.0"
   }
 }
