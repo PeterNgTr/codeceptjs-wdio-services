@@ -4,7 +4,7 @@ const {
   I, homePage, resultPage, productDetailsPage, cartPage,
 } = inject();
 
-Feature('Add to card functionality');
+Feature('Add to cart functionality');
 
 Before(() => {
   I.amOnPage('/');

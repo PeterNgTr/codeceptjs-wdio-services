@@ -7,7 +7,7 @@ export default resultPage = {
 
   async hasResults(searchString) {
     const results = await I.grabTextFrom(this.productName);
-    return results[0].toLowerCase().includes(searchString.toLowerCase());
+    return results.join(' ').toLowerCase().includes(searchString.toLowerCase());
   },
 
   async showProductDetails() {
